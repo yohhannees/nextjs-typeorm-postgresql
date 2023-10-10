@@ -6,7 +6,7 @@ const config: ConnectionOptions = {
   host: 'localhost',
   port: 5432,
   username: 'postgres',
-  password: 'etata30',
+  password: 'password',
   database: 'muyalogy',
   synchronize: true, 
   entities: ['/entities/**/*.ts'],

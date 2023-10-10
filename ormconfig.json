@@ -1,0 +1,25 @@
+{
+   
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "etata30",
+  "database": "muyalogy",
+  "synchronize": true,
+  "logging": true,
+  "entities": [
+    "./entities/**/*.ts"
+  ],
+  "migrations": [
+    "./migrations/**/*.ts"
+  ],
+  "subscribers": [
+    "./subscribers/**/*.ts"
+  ],
+  "cli": {
+    "entitiesDir": "./entities",
+    "migrationsDir": "./migrations",
+    "subscribersDir": "./subscribers"
+  }
+}
